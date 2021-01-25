@@ -5,18 +5,16 @@
 </template>
 
 <script>
-import storage from "./storage/index";
 export default {
   name: "App",
   components: {},
   data() {
     return {};
   },
-  mounted() {
-    storage.setItem("abc", { a: 1 }, "user");
-  },
+  mounted() {},
 };
 </script>
 
 <style>
+@import "./assets/scss/reset.scss";
 </style>
