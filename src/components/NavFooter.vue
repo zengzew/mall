@@ -5,7 +5,8 @@
       <p>小米商城</p>
     </div>
     <div class="footer-link">
-      <a href="https://zengzew.github.io/" target="_blank">zengze的主页</a
+      <span>|</span
+      ><a href="https://zengzew.github.io/" target="_blank">zengze的主页</a
       ><span>|</span>
     </div>
     <div class="copyright">
