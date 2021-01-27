@@ -29,7 +29,16 @@
             v-on:click="$emit('cancel')"
             >{{ cancelText }}</a
           >
-          <div class="btn-group" v-if="btnType == 3">
+          <div class="but-group" v-if="btnType == 3">
+            <a href="javascript:;" class="btn" v-on:click="$emit('submit')"
+              >确定</a
+            >
+            <a href="javascript:;" class="btn" v-on:click="$emit('cancel')"
+              >取消</a
+            >
+          </div>
+
+          <!-- <div class="btn-group" v-if="btnType == 3">
             <a href="javascript:;" class="btn" v-on:click="$emit('submit')">{{
               sureText
             }}</a>
@@ -39,7 +48,7 @@
               v-on:click="$emit('cancel')"
               >{{ cancelText }}</a
             >
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -66,7 +75,7 @@ export default {
       type: String,
       default: "取消",
     },
-    showModal: Boolean, //是否展示弹框
+    showModal: Boolean,
   },
 };
 </script>
