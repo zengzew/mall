@@ -5,12 +5,14 @@
       <p>小米商城</p>
     </div>
     <div class="footer-link">
-      <span>|</span
-      ><a href="https://zengzew.github.io/" target="_blank">zengze的主页</a
-      ><span>|</span>
+      <span>|</span>
+      <a href="https://github.com/zengzew/mall" target="_blank">项目github</a>
+      <span>|</span>
+      <a href="https://zengzew.github.io/" target="_blank">zengze的主页</a>
+      <span>|</span>
     </div>
     <div class="copyright">
-      Copyright ©2020 <span class="domain">zengze.com</span> All Rights
+      Copyright ©2021 <span class="domain">zengze.com</span> All Rights
       Reserved.
     </div>
   </div>
