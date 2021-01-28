@@ -10,7 +10,7 @@
       ><span>|</span>
     </div>
     <div class="copyright">
-      Copyright ©2021 <span class="domain">mimall.com</span> All Rights
+      Copyright ©2020 <span class="domain">zengze.com</span> All Rights
       Reserved.
     </div>
   </div>

@@ -16,11 +16,13 @@ export default {
       this.getUser();
       this.getCartCount();
     }
+    this.getUser();
+    this.getCartCount();
   },
   methods: {
     getUser() {
       this.axios.get("/user").then((res = {}) => {
-        this.$store.dispatch("saveUserName", res.username);
+        this.$store.dispatch("saveUserName", res.username); //拉取用户信息
       });
     },
     getCartCount() {
@@ -37,4 +39,3 @@ export default {
 @import "./assets/scss/config.scss";
 @import "./assets/scss/button.scss";
 </style>
-
