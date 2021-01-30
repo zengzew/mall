@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "qrcode": "^1.4.4",
+    "vue": "^2.6.11",
+    "vue-infinite-scroll": "^2.0.2"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.11",
