@@ -20,9 +20,14 @@
               v-model="password"
             />
           </div>
+          <div>
+            <a>账户名：zengze </a>
+            <a>密码：zengze</a>
+          </div>
           <div class="btn-box">
             <a href="javascript:;" class="btn" @click="login">登录</a>
           </div>
+
           <div class="tips">
             <div class="sms" @click="register">手机短信登录/注册</div>
             <div class="reg">立即注册<span>|</span>忘记密码？</div>
@@ -78,9 +83,9 @@ export default {
     register() {
       this.axios
         .post("/user/register", {
-          username: "admin1",
-          password: "admin1",
-          email: "admin1@163.com",
+          username: "zengze",
+          password: "zengze",
+          email: "zz@163.com",
         })
         .then(() => {
           // this.$message.success("注册成功");
