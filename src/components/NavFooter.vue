@@ -15,6 +15,11 @@
       Copyright ©2021 <span class="domain">zengze.com</span> All Rights
       Reserved.
     </div>
+    <div class="footer-link">
+      <a href="https://beian.miit.gov.cn/" target="_blank"
+        >鄂ICP备2021002449号-1</a
+      >
+    </div>
   </div>
 </template>
 <script>
